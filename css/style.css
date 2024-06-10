@@ -765,3 +765,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
+h5{
+    font-size: 2.5rem;
+}
