@@ -744,15 +744,15 @@ h1,h2,h3,h4,h5,h6{
     font-style: normal;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
-body{
-  font-family: "Noto Sans TC", sans-serif;
+body {
+  font-family: "Noto Sans TC", sans-serif !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Noto Sans TC", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+* {
+  font-family: "Noto Sans TC", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: inherit !important;
+  font-style: normal !important;
 }
